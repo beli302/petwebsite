@@ -1,0 +1,78 @@
+body{
+    background-color: antiquewhite;
+}
+nav{
+    position: fixed;
+    background-color: darkgrey;
+    width: 100%;
+    padding: 10px;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    padding: 100px;
+    font-style: italic;
+    font-size: 25px;
+}
+.rib{
+    font-family: fantasy;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 6%;
+ }
+ .rib>div>img{
+    padding-left: 10px;
+    
+} 
+.rib ol li{
+    list-style: none;
+    overflow: hidden;
+    object-fit: cover;
+    
+}
+.rib>ol{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px
+}
+.img{
+    font-family: fantasy;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 6%;
+ }
+ .img>div>img{
+    padding-left: 10px;
+    
+} 
+.img ul li{
+    list-style: none;
+    overflow: hidden;
+    object-fit: cover;
+    
+}
+.img>ul{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-between;
+}
+h2{
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+}
+.activity ol li{
+    font-size: 25px;
+}
+footer{
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 25px;
+}
